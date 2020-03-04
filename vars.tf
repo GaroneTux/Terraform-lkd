@@ -40,7 +40,7 @@ variable "type-machine" {
 }
 variable "cdirs_acesso" {
     type = "list"
-    default = ["191.183.198.226/32"]
-#    default = ["191.183.198.226/32". "192.183.198.227/32"] - exemplo para lista
+    default = ["IP/32"]
+#    default = ["191.183.198.220/32". "192.183.198.227/32"] - exemplo para lista
 }
 
