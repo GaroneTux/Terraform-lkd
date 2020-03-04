@@ -1,0 +1,11 @@
+Tasks terraform para criação de instancias Linux, dynamodb, bucket e grupos de segurança na aws.
+Artigos publicados em Linkedin: https://www.linkedin.com/in/etoregarone/
+Divididos em:
+ - main.tf: dados para criação de maquinas;
+ - vars.tf: contém variáveis usadas em demais .tf;
+ - resource_db.tf: dados para criação de um bd Dynamo para testes;
+ - bucket.tf: dados para criação dos buckets - designados para instancias;
+ - security-groups.tf: grupos de segurança que serão criados.
+ 
+ 
+
